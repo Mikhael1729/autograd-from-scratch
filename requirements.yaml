@@ -1,0 +1,6 @@
+name: autograd-learning
+channels:
+  - defaults
+dependencies:
+  - python=3.12.1 # Replace '3.x' with your specific Python version
+  - pyvis
