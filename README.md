@@ -56,6 +56,12 @@ To install the project dependencies, run:
 conda env create -f requirements.yaml
 ```
 
+Then, activate the virtual environment:
+
+```bash
+conda activate autograd-learning
+```
+
 We’ll build the autograd engine using only Python, with no third-party dependencies required—except for one: we'll use pyvis to visually render the computational graph of the single neuron we’ll construct.
 
 ## References
